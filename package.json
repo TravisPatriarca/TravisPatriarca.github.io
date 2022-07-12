@@ -1,0 +1,22 @@
+{
+  "name": "travispatriarca.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-bootstrap": "sass --watch src/vendor/bootstrap/scss:dist/vendor/bootstrap/css",
+    "sass": "sass --watch src/scss:dist/css",
+    "tsc": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravisPatriarca/TravisPatriarca.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravisPatriarca/TravisPatriarca.github.io/issues"
+  },
+  "homepage": "https://github.com/TravisPatriarca/TravisPatriarca.github.io#readme"
+}

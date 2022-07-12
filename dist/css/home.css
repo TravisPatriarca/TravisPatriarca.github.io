@@ -1,0 +1,53 @@
+/* ==== HERO SECTION ==== */
+.hero-image {
+  background-image: url("../img/hero-image.svg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: 100% auto;
+}
+
+/* ==== PROJECT SECTION ==== */
+.project-title-left {
+  background-color: #392061;
+  box-shadow: -5px 10px #822E81;
+}
+
+.project-title-right {
+  background-color: #392061;
+  box-shadow: 5px 10px #822E81;
+}
+
+.project-image-main {
+  height: 270px;
+  width: 480px;
+}
+
+.project-image-side {
+  height: 64px;
+  width: 110px;
+}
+
+.project-image-side, .project-image-main {
+  object-fit: cover;
+}
+
+/* ==== CONTACT FORM ==== */
+.contact-form {
+  background-image: url("../img/earth.svg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: 170% auto;
+}
+
+/* ==== OTHER ==== */
+.br-lg {
+  border-radius: 0.5rem !important;
+}
+
+body {
+  background-color: #f4f4f4 !important;
+}
+
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,95 @@
+/*!
+ * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "maps";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+.mb-6 {
+    margin-bottom: ($spacer * 3) !important;
+}
+
+.mb-7 {
+    margin-bottom: ($spacer * 6) !important;
+}
+
+.mb-8 {
+    margin-bottom: ($spacer * 12) !important;
+}
+
+.pt-6 {
+    padding-top: ($spacer * 3) !important;
+}
+
+.pt-7 {
+    padding-top: ($spacer * 6) !important;
+}
+
+.pt-8 {
+    padding-top: ($spacer * 12) !important;
+}
+
+.pb-7 {
+    padding-bottom: ($spacer * 3) !important;
+}
+
+.pb-8 {
+    padding-bottom: ($spacer * 12) !important;
+}
+
+.pb-9 {
+    padding-bottom: ($spacer * 18) !important;
+}
+
+.px-9 {
+    padding-left: ($spacer * 18) !important;
+    padding-right: ($spacer * 18) !important;
+}
